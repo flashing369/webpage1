@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Marbury v. Madison 要素详解版</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{--theme:#1a3a6c;--gold:#d4af37}
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;line-height:1.7;color:#333;background:#f8fafc}
+header{background:var(--theme);color:#fff;padding:2.5rem 1rem;text-align:center}
+h1{margin:0;font-size:2rem;font-weight:600}
+.container{max-width:840px;margin:0 auto;padding:1rem}
+.section{background:#fff;border-radius:10px;margin:1.8rem 0;padding:1.4rem;box-shadow:0 4px 12px rgba(0,0,0,.05)}
+h2{margin:0 0 1rem;font-size:1.4rem;color:var(--theme);border-bottom:2px solid var(--gold);padding-bottom:.3rem}
+ol{padding-left:1.2rem}
+details{background:#fff;border-left:4px solid var(--gold);border-radius:6px;margin:.6rem 0;box-shadow:0 2px 5px rgba(0,0,0,.05)}
+summary{padding:.8rem 1rem;font-weight:600;cursor:pointer;outline:0}
+details[open]{background:#fffdf7}
+.content{padding:0 1rem .8rem;font-size:.95rem;line-height:1.8}
+.quote{color:#004085;background:#e6f2ff;padding:.4rem .6rem;border-radius:4px;margin:.4rem 0;font-family:"Courier New",Courier,monospace}
+footer{text-align:center;font-size:.8rem;padding:2rem 0;color:#777}
+</style>
+</head>
+<body>
+<header>
+  <h1>Marbury v. Madison 要素详解版</h1>
+  <p style="margin:.4rem 0 0;font-size:1rem">Elements 展开版 | 23翻译 周紫峰</p>
+</header>
+
+<div class="container">
+  <!-- ① 设计工具方法过程（AI版） -->
+  <section class="section">
+    <h2>一、设计工具、方法、过程</h2>
+    <ol>
+      <li>① 问 AI：单文件 HTML 模板 + 折叠结构 + 手机适配 + 主色深蓝/金。</li>
+      <li>② 逐部分下指令：用 details 生成 9 大 Elements；每块放课文原句+讲解。</li>
+      <li>③ 选词自动化：正则提取“provided that / Wherefore / It is … that”等结构，频率≥3 即入库。</li>
+      <li>④ 转 .html：复制全部代码 → CodePen 粘贴 → Save，得公开链接。</li>
+    </ol>
+  </section>
+
+  <!-- ② 九大 Elements 详解（替换后完整版） -->
+  <section class="section">
+    <h2>二、Elements of Court Opinion 展开讲解</h2>
+
+    <details>
+      <summary>1. Case Caption（案号与标题）</summary>
+      <div class="content">
+        <div class="quote">WILLIAM MARBURY v. JAMES MADISON, Secretary of State of the United States, 5 U.S. 137 (1803)</div>
+        <ul><li>原告在前、被告在后；5 U.S. = 卷册，137 = 起始页，(1803) = 年份。</li><li>引用跳段：5 U.S. 137, 147。</li></ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>2. Court（审理法院）</summary>
+      <div class="content">
+        <div class="quote">Supreme Court of the United States</div>
+        <ul><li>Chief Justice Marshall 上任后首件宪法案，奠定权威文风。</li><li>写 memo 必须写全名，不可简写 SCOTUS。</li></ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>3. Procedural Posture（程序地位）</summary>
+      <div class="content">
+        <div class="quote">original application for writ of mandamus</div>
+        <ul><li>宪法第三条 original jurisdiction 初审，非上诉。</li><li>程序逻辑：Marbury 直接申请强制令迫使 Madison 交文书。</li></ul>
+      </div>
+    </details>
+
+    <details>
+      <summary>4. Material Facts（核心事实）</summary>
+      <div class="content">
+        <p>① 卸任前夜 → Adams 签状盖玺（p.137）<br>② 新官扣留 → Jefferson 指示 Madison 不交付（p.138）<br>③ 原告求助 → Marbury 申请 mandamus</p>
+        <p>口诀：签—扣—告</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>5. Legal Issues（法律争点）</summary>
+      <div class="content">
+        <ol>
+          <li>Right: 是否有权拿委任状？</li>
+          <li>Remedy: 权利被侵能否救济？</li>
+          <li>Remedy from this Court: 最高法院能否发强制令？</li>
+        </ol>
+        <p>写 brief 用 Whether 三问，答 Yes/No 即完成 IRAC。</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>6. Constitutional Question</summary>
+      <div class="content">
+        <p>Whether § 13 of the Judiciary Act compatible with Art. III § 2?</p>
+        <p>Marshall 首次司法审查 → § 13 违宪，确立法院可废立法律。</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>7. Holding（判决结果）</summary>
+      <div class="content">
+        <p>表面：Marbury 败诉，强制令不发。<br>实质：确立 judicial review。</p>
+        <div class="quote">We hold that § 13 is unconstitutional and courts possess judicial review.</div>
+      </div>
+    </details>
+
+    <details>
+      <summary>8. Ratio Decidendi（判决理由）</summary>
+      <div class="content">
+        <ol>
+          <li>Constitution = supreme law</li>
+          <li>Repugnant statute = void</li>
+          <li>Courts must say what the law is</li>
+        </ol>
+        <p>至上→冲突→法院说了算，以后合宪审查必引。</p>
+      </div>
+    </details>
+
+    <details>
+      <summary>9. 速记口诀</summary>
+      <div class="content">Caption-Court-Posture 先定位<br>Facts-Issues-Constitutional 拆争点<br>Holding-Ratio 后结论<br>9 行骨架记终身！
+      </div>
+    </details>
+  </section>
+
+  <!-- ③ 双语知识库（完整版） -->
+  <section class="section">
+    <h2>三、双语知识库</h2>
+    <!-- 20 术语 -->
+    <details>
+      <summary>1. 核心术语（20 条）</summary>
+      <table><thead><tr><th>英文术语</th><th>中文</th><th>释义</th></tr></thead>
+        <tbody>
+        <tr><td>writ of mandamus</td><td>执行令</td><td>命令官员履行法定职责的令状</td></tr>
+        <tr><td>judicial review</td><td>司法审查</td><td>法院审查法律合宪性之权</td></tr>
+        <tr><td>commission</td><td>委任状</td><td>总统签署的正式任命文书</td></tr>
+        <tr><td>appointment</td><td>任命</td><td>总统依宪法设置官职的行为</td></tr>
+        <tr><td>seal of the United States</td><td>美国国玺</td><td>验证联邦公文真实性之印</td></tr>
+        <tr><td>vested right</td><td>既得权利</td><td>已确立并受法律保护之权利</td></tr>
+        <tr><td>legal remedy</td><td>法律救济</td><td>对权利侵害提供的法律补偿</td></tr>
+        <tr><td>original jurisdiction</td><td>初审管辖权</td><td>首次审理案件之权限</td></tr>
+        <tr><td>appellate jurisdiction</td><td>上诉管辖权</td><td>复审下级法院判决之权限</td></tr>
+        <tr><td>ministerial act</td><td>行政性行为</td><td>无裁量空间之机械职责</td></tr>
+        <tr><td>political question</td><td>政治问题</td><td>宜由政治部门决定之事项</td></tr>
+        <tr><td>supreme law</td><td>最高法律</td><td>宪法在国家法律体系中之地位</td></tr>
+        <tr><td>separation of powers</td><td>三权分立</td><td>立法/行政/司法分置原则</td></tr>
+        <tr><td>checks and balances</td><td>制衡机制</td><td>防止任一部门权力过大之设计</td></tr>
+        <tr><td>constitutional interpretation</td><td>宪法解释</td><td>对宪法条文含义之阐释</td></tr>
+        <tr><td>repugnant to the Constitution</td><td>与宪法相抵触</td><td>描述法律违宪之状态</td></tr>
+        <tr><td>rule of law</td><td>法治</td><td>法律至上、人人平等之治</td></tr>
+        <tr><td>discretionary power</td><td>自由裁量权</td><td>主体依法自主判断之权</td></tr>
+        <tr><td>mandamus petitioner</td><td>执行令申请人</td><td>请求法院颁发执行令之一方</td></tr>
+        <tr><td>delivery of commission</td><td>送达委任状</td><td>将任命文书交付相对人之行为</td></tr>
+        </tbody></table>
+    </details>
+
+    <!-- 10 短语 -->
+    <details>
+      <summary>2. 高频短语（10 条）</summary>
+      <div style="margin:.6rem 0;">
+      <div class="phrase-box"><span class="phrase-en">provided that …</span><br><span class="phrase-zh">但前提是…</span><div class="usage">合同/法规例外条款万能连接词。</div></div>
+      <div class="phrase-box"><span class="phrase-en">Wherefore, …</span><br><span class="phrase-zh">因此，…</span><div class="usage">判决书结论段标志性开头。</div></div>
+      <div class="phrase-box"><span class="phrase-en">It is … that …</span><br><span class="phrase-zh">正是…才…</span><div class="usage">强调句型，突出职责、时间、主体。</div></div>
+      <div class="phrase-box"><span class="phrase-en">shall vs. may</span><br><span class="phrase-zh">shall=必须；may=可以</span><div class="usage">义务与许可分水岭，互换即改法律后果。</div></div>
+      <div class="phrase-box"><span class="phrase-en">Only when …, can …</span><br><span class="phrase-zh">只有在…时，才能…</span><div class="usage">倒装强调条件，比“if”更刚性。</div></div>
+      <div class="phrase-box"><span class="phrase-en">repugnant to the Constitution</span><br><span class="phrase-zh">与宪法相抵触</span><div class="usage">判定法律违宪之经典表述。</div></div>
+      <div class="phrase-box"><span class="phrase-en">the very essence of …</span><br><span class="phrase-zh">…之核心本质</span><div class="usage">用于升华论证，如 civil liberty。</div></div>
+      <div class="phrase-box"><span class="phrase-en">in its nature</span><br><span class="phrase-zh">就其性质而言</span><div class="usage">界定争议属性，常用于管辖权分析。</div></div>
+      <div class="phrase-box"><span class="phrase-en">conclusive evidence</span><br><span class="phrase-zh">决定性证据</span><div class="usage">说明某证据足以终结争议。</div></div>
+      <div class="phrase-box"><span class="phrase-en">ministerial vs. discretionary</span><br><span class="phrase-zh">行政性 vs. 裁量性</span><div class="usage">区分行为是否可被法院审查。</div></div>
+      </div>
+    </details>
+
+    <!-- 5 句型 -->
+    <details open>
+      <summary>3. 高频结构句型（5 条）</summary>
+    <details>
+      <summary>1. provided that … 但前提是 …</summary>
+        <div class="pattern-box">
+          <div class="pattern-en">The Secretary shall affix the seal, <strong>provided that</strong> the commission has been signed by the President.</div>
+          <div class="pattern-zh">国务卿应加盖国玺，<strong>但前提是</strong>委任状已由总统签署。</div>
+          <div class="usage">公式：主句 + provided that + 条件从句；等于 on the condition that，用于合同/法规例外。</div>
+        </div>
+    </details>
+    <details>
+      <summary>2. Wherefore, … 因此，……</summary>
+        <div class="pattern-box">
+          <div class="pattern-en"><strong>Wherefore,</strong> the petition for mandamus is denied.</div>
+          <div class="pattern-zh"><strong>因此，</strong>本院驳回执行令申请。</div>
+          <div class="usage">Wherefore, + 结论；判决书结论段标志性开头，同义词 Therefore / Accordingly。</div>
+        </div>
+    </details>
+    <details>
+      <summary>3. It is … that … 强调结构</summary>
+        <div class="pattern-box">
+          <div class="pattern-en"><strong>It is</strong> emphatically <strong>that</strong> the judicial department must say what the law is.</div>
+          <div class="pattern-zh">“明确指出法律是什么”<strong>正是</strong>司法部门的职责。</div>
+          <div class="usage">It is + 被强调部分 + that + 剩余句子；适合突出职责、时间、主体，memo 背景段常用。</div>
+        </div>
+    </details>
+    <details>
+      <summary>4. shall vs. may 义务与许可</summary>
+        <div class="pattern-box">
+          <div class="pattern-en">The President <strong>shall</strong> commission all officers. (义务)</div>
+          <div class="pattern-en">Congress <strong>may</strong> vest the appointment in the President alone. (许可)</div>
+          <div class="pattern-zh">shall=必须；may=可以/有权</div>
+          <div class="usage">起草条款时 shall 加义务，may 留裁量；互换即改变法律后果。</div>
+        </div>
+    </details>
+    <details>
+      <summary>5. Only when …, can … 倒装强调</summary>
+        <div class="pattern-box">
+          <div class="pattern-en"><strong>Only when</strong> the commission is signed and sealed, <strong>can</strong> the appointee take office.</div>
+          <div class="pattern-zh"><strong>只有在</strong>委任状签署并加盖国玺后，<strong>才能</strong>就职。</div>
+          <div class="usage">Only when + 条件, can + 主句；比“if”更正式、条件更刚性。</div>
+        </div>
+    </details>
+    </details>
+
+    <!-- 速记卡 -->
+    <details>
+      <summary>4. 一分钟速记卡</summary>
+      <ul>
+        <li><strong>provided that</strong> = 但前提是，写例外</li>
+        <li><strong>Wherefore,</strong> = 因此，放结尾</li>
+        <li><strong>It is … that</strong> = 强调结构，主语/职责提前</li>
+        <li><strong>shall</strong> 表义务，<strong>may</strong> 表许可，别混用</li>
+        <li><strong>Only when …, can …</strong> = 倒装强调，条件更硬</li>
+      </ul>
+    </details>
+  </section>
+
+<footer>
+  © 2024 法律英语案例库 · Marbury v. Madison 要素详解版
+</footer>
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"><title>新建 DOCX 文档</title>
+</head>
+<body style='margin:0'>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="main1" width="793" height="1121">
+	<defs>
+		<clipPath id="clip1">
+			<path d="M0 841L0 -0.9500122L0 -0.9500122L595.35 -0.9500122L595.35 -0.9500122L595.35 841L595.35 841L0 841z" />
+		</clipPath>
+	</defs>
+	<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+		<g clip-path="url(#clip1)">
+			<g>
+			</g>
+		</g>
+	</g>
+</svg><br/>
+</body>
+</html>
